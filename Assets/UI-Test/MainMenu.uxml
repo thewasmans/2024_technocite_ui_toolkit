@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI-Test/uss_button.uss?fileID=7433441132597879392&amp;guid=dc9444be91b41c448ad75e128ae7bce7&amp;type=3#uss_button" />
+    <ui:VisualElement name="MainLayout" style="flex-grow: 1; display: flex; visibility: visible; overflow: visible; border-left-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); -unity-slice-scale: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 79px; padding-right: 79px; padding-bottom: 79px; padding-left: 79px; opacity: 1;">
+        <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonPlay" data-source="project://database/Assets/New%20SO%20Binding%20Value.asset?fileID=11400000&amp;guid=987257b0142b73c458612ff956ad711d&amp;type=2#New SO Binding Value" data-source-path="BindingValue" class="button" />
+        <ui:Button text="OPTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOption" class="button" style="-unity-text-align: middle-center;" />
+        <ui:Button text="EXIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonExit" class="button" />
+        <ui:Slider label="Slider" value="42" high-value="100" data-source="project://database/Assets/New%20SO%20Binding%20Value.asset?fileID=11400000&amp;guid=987257b0142b73c458612ff956ad711d&amp;type=2#New SO Binding Value" data-source-path="BindingValue" />
+    </ui:VisualElement>
+</ui:UXML>

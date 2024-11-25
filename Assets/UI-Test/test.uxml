@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Button text="Button" name="ButtonPlay" data-source="project://database/Assets/New%20SO%20Binding%20Value.asset?fileID=11400000&amp;guid=987257b0142b73c458612ff956ad711d&amp;type=2#New SO Binding Value" />
+        <ui:Button text="Button" name="ButtonOptions" />
+        <ui:Button text="Button" name="ButtonExit" />
+    </ui:VisualElement>
+</ui:UXML>

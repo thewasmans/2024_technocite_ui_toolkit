@@ -1,0 +1,45 @@
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.button {
+    background-color: rgb(237, 65, 42);
+    font-size: 84px;
+    -unity-font-style: bold;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 0;
+    color: rgb(45, 88, 173);
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.button:hover {
+    color: rgb(237, 65, 42);
+    background-color: rgb(45, 88, 173);
+    scale: 1.1 1.1;
+    rotate: 1deg;
+    transform-origin: center;
+    opacity: 1;
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-left-color: rgba(255, 255, 255, 0.09);
+    border-right-color: rgba(255, 255, 255, 0.09);
+    border-top-color: rgba(255, 255, 255, 0.09);
+    border-bottom-color: rgba(255, 255, 255, 0.09);
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
